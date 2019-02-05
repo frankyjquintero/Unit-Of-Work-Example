@@ -3,7 +3,9 @@ En el siguiente repositorio usted encontrará un ejemplo de dichos patrones sobr
 
 ### ¿Cómo levantar el proyecto?
 * La cadena de conexión por ahora se encuentra en el ApplicationDbContext debido a que el proyecto es consola.
-* Luego de cambiar la cadena de conexión corran la migración de ejemplo
+* Luego de cambiar la cadena de conexión corran la migración de ejemplo:
+	* Situarse en el proyecto de \src\UnitOfWorkPersistence y desde la consola correr: 
+	### dotnet ef database update
 * Pueden hacer pruebas con los métodos que hay en el program.cs
 * No se olviden usar Net Core 2.2
 
